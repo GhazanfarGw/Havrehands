@@ -55,7 +55,7 @@ const TimerComponent = ({ timerState }) => {
       </div>
       <div className="flex flex-row gap-7 pt-5 justify-center text-center mx-auto">
         <a 
-          target="_black" href="https://twitter.com/BlackStoneSec" 
+          target="_black" href="https://www.linkedin.com/in/havre-hands-74b0952b6/" 
           className="text-[#FDBD31]
           items-center text-sm relative h-8 pt-0.5 uppercase duration-200 flex justify-center flex-row hover:text-[#fff]"
           rel="noreferrer">
