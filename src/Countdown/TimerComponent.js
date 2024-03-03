@@ -8,8 +8,7 @@ const TimerComponent = ({ timerState }) => {
       <h1 className='uppercase text-[#FDBD31] lg:text-5xl font-semibold sm:text-4xl text-2xl'>
         Website <br/> Under Construction
       </h1>
-      <p className='lg:text-base md:text-base text-sm font-normal text-[#969696] pt-3'>
-        We're Under Construction!
+      <p className='lg:text-base md:text-base text-sm font-normal text-[#969696] pt-3 md:max-w-screen-md lg:max-w-screen-2xl justify-center text-center mx-auto'>
         Sorry for the inconvenience, but we're performing some maintenance at the moment. We'll be back online shortly with a brand new look.
         <br/>
         You can also reach out to us on social media:
