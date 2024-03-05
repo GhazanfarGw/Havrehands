@@ -125,7 +125,7 @@ TimerContainer.propTypes = {
 TimerContainer.defaultProps = {
   offsetGMT: 'GMT+0530',
   startTime: '03/03/2024 00:00:00',
-  endTime: '03/09/2024 12:00:00'
+  endTime: '03/10/2024 12:00:00'
   
 };
 
