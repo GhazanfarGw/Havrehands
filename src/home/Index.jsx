@@ -1,5 +1,5 @@
 import React from 'react'
-// import Navber from '../header&footer/navbar';
+import Navber from '../header&footer/navbar';
 import Footer from '../header&footer/footer';
 import Dashboard from './dashboard';
 import Services from './services';
@@ -12,7 +12,7 @@ import Build from './build';
 export default function Index() {
   return (
   <>
-    {/* <Navber/> */}
+    <Navber/>
     <Dashboard/>
     <About/>
     <Services/>
