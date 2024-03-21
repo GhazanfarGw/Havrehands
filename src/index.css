@@ -1,0 +1,240 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-color: #161A1E;
+  scroll-behavior: smooth;
+}
+
+/* styles.css */
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../src//home//brolink.otf') format('opentype');
+}
+
+  /* Slow scroll behavior */
+  .slow-scroll {
+    scroll-behavior: smooth;
+    transition: scroll-behavior 2s ease;
+  }
+
+
+.header {
+  padding: 20px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.missionbanner {
+  background-image: url(../public/Mission-Banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-size: cover;
+  height: 100vh;
+  scroll-behavior: smooth;
+  
+}
+
+.background-lines {
+  background-image: url(../public/Loyer-Element.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-size: cover;
+  height: 100vh;
+  transition: background-size 1ms ease-in;
+  scroll-behavior: smooth;
+}
+
+.visionbanner {
+  background-image: url(../public/Vision-Banner.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-size: cover;
+  height: 100vh;
+  transition: background-size 1ms ease-in;
+  scroll-behavior: smooth;
+}
+
+
+.approbanner {
+  background-image: url(../public/Approach-Banner.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-size: cover;
+  height: 100vh;
+  transition: background-size 1ms ease-in;
+  scroll-behavior: smooth;
+}
+
+.experince {
+    background-image: url(../public/shape-1.png);
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.footerbg {
+    background-image: url(../public/Footer-Banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Preloader.css */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111111; /* Background color for the preloader */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .loader {
+    border: 6px solid #18C4FF; /* Light gray border */
+    border-top: 6px solid #09121C; /* Blue border */
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    animation: spin 3s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  /* defines the animation */
+@keyframes fadeInUp {
+  from { 
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.first {
+  opacity: 0; 
+  animation: fadeInUp 1s ease-in-out 0s forwards;
+  animation-delay: 0.5s;
+}
+
+.second {
+  opacity: 0; 
+  animation: fadeInUp 1s ease-in-out 0s forwards;
+  animation-delay: 1s;
+}
+
+.third {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out 0s forwards;
+  animation-delay: 2s;
+
+}
+
+.fourth {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out 0s forwards;
+  animation-delay: 3s;
+}
+  
+.five {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out 0s forwards;
+  animation-delay: 4s;
+}
+
+
+/* @property --angle {
+  syntax: '<angle>';
+  initial-value: 90deg;
+  inherits: true;
+}
+
+@property --gradX {
+  syntax: '<percentage>';
+  initial-value: 50%;
+  inherits: true;
+}
+
+@property --gradY {
+  syntax: '<percentage>';
+  initial-value: 0%;
+  inherits: true;
+}
+
+:root {
+  --d: 2500ms;
+  --angle: 90deg;
+  --gradX: 100%;
+  --gradY: 50%;
+  --c1: rgba(168, 239, 255, 1);
+  --c2: rgba(168, 239, 255, 0.1);
+}
+
+.wrapper {
+  min-width: min(40rem, 100%);
+}
+
+.border-animation {
+  font-size: 3vw;
+  border: 0.35rem solid;
+  border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+  animation: borderRotate var(--d) linear infinite forwards;
+}
+
+.border-animation:nth-child(2) {
+  border-image: radial-gradient(ellipse at var(--gradX) var(--gradY), var(--c1), var(--c1) 10%, var(--c2) 40%) 30;
+  animation: borderRadial var(--d) linear infinite forwards;
+}
+
+@keyframes borderRotate {
+  100% {
+    --angle: 420deg;
+  }
+}
+
+@keyframes borderRadial {
+  20% {
+    --gradX: 100%;
+    --gradY: 50%;
+  }
+  40% {
+    --gradX: 100%;
+    --gradY: 100%;
+  }
+  60% {
+    --gradX: 50%;
+    --gradY: 100%;
+  }
+  80% {
+    --gradX: 0%;
+    --gradY: 50%;
+  }
+  100% {
+    --gradX: 50%;
+    --gradY: 0%;
+  }
+} */
