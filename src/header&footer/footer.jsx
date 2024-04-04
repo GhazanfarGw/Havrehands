@@ -60,20 +60,6 @@ const Footer = () => {
                                 </a>
                             </div>
                             <div>
-                                <a className='text-sm text-[#C3CDD3] md:pt-4 pt-2 pl-2 hover:text-[#18C4FF] hover:font-semibold duration-150' 
-                                    href="/how-we-work"
-                                >
-                                    How We Work
-                                </a>
-                            </div>
-                            <div>
-                                <a 
-                                    className='text-sm text-[#C3CDD3] md:pt-4 pt-2 pl-2 hover:text-[#18C4FF] hover:font-semibold duration-150' 
-                                    href="/services"
-                                >   Service Overview
-                                </a>
-                            </div>
-                            <div>
                                 <a 
                                     className='text-sm text-[#C3CDD3] md:pt-4 pt-2 pl-2 hover:text-[#18C4FF] hover:font-semibold duration-150' 
                                     href="/mission"
